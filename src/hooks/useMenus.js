@@ -16,7 +16,6 @@ export default () => {
                             price
                             spicy
                             popular
-                            categoryList
                         }
                         image {
                             publicUrl
