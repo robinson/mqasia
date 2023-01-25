@@ -1,9 +1,9 @@
 {
-  "name": "tokio-ramen",
+  "name": "mqasia",
   "private": true,
-  "description": "Tokio Ramen Official Website",
+  "description": "Minh Quang Official Website",
   "version": "0.1.0",
-  "author": "demivlkv",
+  "author": "dhg",
   "dependencies": {
     "@heroicons/react": "^2.0.13",
     "dotenv": "^16.0.3",
@@ -43,10 +43,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/demivlkv/tokio-ramen"
+    "url": "https://github.com/robinson/mqasia"
   },
   "bugs": {
-    "url": "https://github.com/demivlkv/tokio-ramen/issues"
+    "url": "https://github.com/robinson/mqasia/issues"
   },
   "resolutions": {
     "react": "^18.1.0",

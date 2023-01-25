@@ -21,7 +21,7 @@ const Header = () => {
       >
         <div className="logo">
           <Link to="/" className="text-3xl font-semibold uppercase transition-all ease-in duration-500 hover:text-[#fe4039]">
-            T<span className="text-[#fe4039]">o</span>kio
+            Minh<span className="text-[#fe4039]">Quang</span>Asia
           </Link>
         </div>
 

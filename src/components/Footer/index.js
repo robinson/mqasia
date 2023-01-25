@@ -17,7 +17,7 @@ const Footer = () => (
       <div>
         <StaticImage
           src="../../images/footer/logo.png"
-          alt="Tokio Ramen Mini Logo"
+          alt="Minh Quang Asia Mini Logo"
           placeholder="none"
           className="w-[40px]"
         />
@@ -31,12 +31,12 @@ const Footer = () => (
       </div>
 
       <div className="flex justify-center items-center">
-        <Link to="https://www.instagram.com/tokioramen/" target="_blank">
+        <Link to="https://www.instagram.com/minhquangasia/" target="_blank">
           <button className="h-[35px] inline-flex items-center mr-1 md:mr-2 text-white hover:text-[#fe4039]">
             <Instagram size={20} />
           </button>
         </Link>
-        <Link to="https://www.facebook.com/tokioramenbb" target="_blank">
+        <Link to="https://www.facebook.com/minhquangasia" target="_blank">
           <button className="h-[35px] inline-flex items-center ml-1 md:ml-2 text-white hover:text-[#fe4039]">
             <Facebook size={20} />
           </button>

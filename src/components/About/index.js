@@ -24,7 +24,7 @@ const About = () => (
             transition={{ duration: 1, delay: 0.5 }}
             viewport={{ once: true }}
           >
-            <StaticImage src="../../images/about/our-history.png" alt="The owners of Tokio Ramen" className="rounded drop-shadow-lg" />
+            <StaticImage src="../../images/about/our-history.png" alt="The owners of Quang Minh Asia" className="rounded drop-shadow-lg" />
           </motion.div>
           <motion.div
             initial={{opacity: 0, x: 100}}
