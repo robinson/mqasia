@@ -17,7 +17,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 4 }}
             >
-              <StaticImage src="../../images/hero/tokio-main.png" alt="Minh Quang Asia Logo" placeholder="tracedSVG" className="z-[5] max-w-screen-md" />
+              <StaticImage src="../../images/hero/3.png" alt="Minh Quang Asia Logo" placeholder="tracedSVG" className="z-[5] max-w-screen-md" />
             </motion.div>
             <motion.div
               className="z-[5] pt-12 text-2xl md:text-3xl text-[#222] font-normal uppercase tracking-[.2em] drop-shadow"
@@ -25,7 +25,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 2, duration: 3 }}
             >
-              Ramen done right
+              München 089 351 0017
             </motion.div>
           </div>
         </div>
