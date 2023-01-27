@@ -29,10 +29,10 @@ const Header = () => {
           <nav>
             {/* NAVBAR AT 768PX & ABOVE */}
             <div className="hidden md:flex">
-              <AnchorLink to="#about" title="Our History" className="mr-2 md:mr-4" />
+              <AnchorLink to="#about" title="Reservierung/Lieferung" className="mr-2 md:mr-4" />
               <AnchorLink to="#menu" title="Menu" className="mx-2 md:mx-4" />
               <AnchorLink to="#info" title="Info" className="mx-2 md:mx-4" />
-              <AnchorLink to="#contact" title="Contact" className="mx-2 md:ml-4" />
+              <AnchorLink to="#contact" title="Kontakt" className="mx-2 md:ml-4" />
             </div>
 
             {/* HAMBURGER MENU AT 768PX & LOWER */}

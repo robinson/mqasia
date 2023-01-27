@@ -24,7 +24,7 @@ const About = () => (
             transition={{ duration: 1, delay: 0.5 }}
             viewport={{ once: true }}
           >
-            <StaticImage src="../../images/about/our-history.png" alt="The owners of Quang Minh Asia" className="rounded drop-shadow-lg" />
+            <StaticImage src="../../images/about/reservierung.png" alt="The owners of Quang Minh Asia" className="rounded drop-shadow-lg" />
           </motion.div>
           <motion.div
             initial={{opacity: 0, x: 100}}
@@ -32,12 +32,7 @@ const About = () => (
             transition={{ duration: 1, delay: 0.5 }}
             viewport={{ once: true }}
           >
-            <p className="pb-2">
-              After immigrating to the United States from Japan in the 1990s, Chef Hiro owned and operated multiple restaurants over a 20-year period. Tokio Ramen was a dream project that came to fruition in which Chef Hiro wanted to offer a Japanese culinary staple known as ramen that is gaining attention with the word quickly spreading. Ramen is, put simply, Japanese style noodles bathed in broth with complementing toppings.
-            </p>
-            <p className="py-2">
-              The menu is intentionally scaled down so that focus is directed at delivering the freshest, best quality ramen. This is the place you can come to and experience an impressionable taste of Japan without a plane ticket. Come join us for a delicious bowl of ramen with a side of steaming gyoza and a refreshing cold Japanese beverage. This is the real no-frills deal with no fusion element to it, because we prefer authenticity like you do.
-            </p>
+            <StaticImage src="../../images/about/lieferung.png" alt="online bestellung of Quang Minh Asia" className="rounded drop-shadow-lg" />
           </motion.div>
         </div>
 
