@@ -44,16 +44,16 @@ const About = () => (
           viewport={{ once: true }}
         >
           <p className="py-4">
-            We are firm believers in acknowledging and giving credit where it's due. With that, we'd like to let our utmost gratitude be known to those who've helped us along the way:
+          Bei unserem Restaurant kannst du Stempel sammeln. Stelle beim Bestellabschluss bitte sicher, dass du dich für unseren Newsletter angemeldet hast, um deine Stempel per E-Mail zu erhalten
           </p>
           <p className="text-center">
-            City of Boynton Beach (with distinguished praise for the CRA!)
+             
           </p>
           <p className="text-center">
-            Catoe & Son Plumbing | Flameguard Fire Equipment | LifeSafety Management
+             
           </p>
           <p className="text-center">
-            Chip Brown of AMJ  |  Challenger Operations Inc
+             
           </p>
         </motion.div>
 

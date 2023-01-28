@@ -28,8 +28,7 @@ const Info = () => (
           viewport={{ once: true }}
         >
           <p className="italic">
-            Closed MONDAYS, select holidays and during planned closures.<br />
-            Free covered garage parking available.
+            2023
           </p>
         </motion.div>
 
@@ -54,13 +53,13 @@ const Info = () => (
           >
             <div className="inline-flex self-start items-center">
               <MapPin style={{ color: '#fe4039' }} size={20} className="mr-3" />
-              <p className="font-medium uppercase">Location :</p>
+              <p className="font-medium uppercase">Adresse :</p>
             </div>
             <div className="inline-flex">
               <p>
-                One Boynton Plaza<br />
-                307 E Woolbright Rd<br />
-                Boynton Beach, FL 33435
+                Minh Quang Asia<br />
+                Ingolstädter Straße 3<br />
+                80807 München
               </p>
             </div>
             <div className="inline-flex self-start items-center">
@@ -68,49 +67,49 @@ const Info = () => (
               <p className="font-medium uppercase">Phone :</p>
             </div>
             <div className="inline-flex">
-              <p>(561) 509-8131</p>
+              <p>(089) 351-0017</p>
             </div>
             {/* HOURS OF OPERATION */}
             <div className="inline-flex self-start items-center">
               <Clock style={{ color: '#fe4039' }} size={20} className="mr-3" />
-              <p className="font-medium uppercase">Hours of Operation :</p>
+              <p className="font-medium uppercase">Öffnungszeiten :</p>
             </div>
             <div></div>
             <div className="inline-flex justify-end items-center pr-4">
-              <p className="font-medium uppercase">Sun</p>
+              <p className="font-medium uppercase">Sonntag</p>
             </div>
             <div className="flex">
-              <p>12 pm to 7 pm</p>
+              <p>11:00 bis 22:00</p>
             </div>
             <div className="inline-flex justify-end items-center pr-4">
-              <p className="font-medium uppercase">Mon</p>
+              <p className="font-medium uppercase">Montag</p>
             </div>
             <div className="flex">
-              <p>CLOSED</p>
+              <p>11:00 bis 22:00</p>
             </div>
             <div className="inline-flex justify-end items-center pr-4">
-              <p className="font-medium uppercase">Tues & Thurs</p>
+              <p className="font-medium uppercase">Dienstag</p>
             </div>
             <div className="flex">
-              <p>12 pm to 10 pm</p>
+              <p>11:00 bis 22:00</p>
             </div>
             <div className="inline-flex justify-end items-center pr-4">
-              <p className="font-medium uppercase">Wed</p>
+              <p className="font-medium uppercase">Mittwoch</p>
             </div>
             <div className="flex">
-              <p>12 pm to 10 pm</p>
+              <p>11:00 bis 22:00</p>
             </div>
             <div className="inline-flex justify-end items-center pr-4">
-              <p className="font-medium uppercase">Fri</p>
+              <p className="font-medium uppercase">Freitag</p>
             </div>
             <div className="flex">
-              <p>12 pm to 10 pm</p>
+              <p>11:00 bis 22:00</p>
             </div>
             <div className="inline-flex justify-end items-center pr-4">
-              <p className="font-medium uppercase">Sat</p>
+              <p className="font-medium uppercase">Samstag</p>
             </div>
             <div className="flex">
-              <p>12 pm to 10 pm</p>
+              <p>Geschlossen</p>
             </div>
           </motion.div>
         </div>
