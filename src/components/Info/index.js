@@ -41,7 +41,7 @@ const Info = () => (
             transition={{ duration: 1, delay: 0.5 }}
             viewport={{ once: true }}
           >
-            <StaticImage src="../../images/info/tokio-map.png" alt="Tokio Ramen Location" className="mr-4 drop-shadow-md" />
+            <StaticImage src="../../images/info/tokio-map.png" alt="Minh Quang Asia Location" className="mr-4 drop-shadow-md" />
           </motion.div>
           {/* CONTACT INFO */}
           <motion.div
@@ -121,12 +121,12 @@ const Info = () => (
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          <Link to="https://www.instagram.com/tokioramen/" target="_blank">
+          <Link to="https://www.instagram.com/minhquangasia/" target="_blank">
             <button className="mx-4 w-[55px] h-[55px] inline-flex justify-center items-center rounded-full bg-[#fe4039] hover:bg-white text-white hover:text-[#fe4039]">
               <Instagram size={25} />
             </button>
           </Link>
-          <Link to="https://www.facebook.com/tokioramenbb" target="_blank">
+          <Link to="https://www.facebook.com/minhquangasia" target="_blank">
             <button className="mx-4 w-[55px] h-[55px] inline-flex justify-center items-center rounded-full bg-[#fe4039] hover:bg-white text-white hover:text-[#fe4039]">
               <Facebook size={25} />
             </button>
