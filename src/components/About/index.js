@@ -14,7 +14,7 @@ const About = () => (
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          Our History
+          Services
         </motion.h2>
         <div className="max-w-screen-lg w-full grid px-4 sm:grid-cols-2 gap-8 mx-auto text-white">
           <motion.div
