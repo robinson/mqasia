@@ -112,13 +112,13 @@ const Menu = () => {
           transition={{ duration: 1, delay: 0.5 }}
           viewport={{ once: true }}
         >
-          <p className="font-medium">Consumer Advisory</p>
+          <p className="font-medium">Vebraucherberatung</p>
           <p className="text-center text-sm italic">
-            Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of foodborne illness, especially if you have certain medical conditions.
+          Der Verzehr von rohem oder halbgarem Fleisch, Geflügel, Meeresfrüchten, Schalentieren oder Eiern kann Ihr Risiko für lebensmittelbedingte Krankheiten erhöhen, insbesondere wenn Sie an bestimmten Erkrankungen leiden.
           </p>
           <div className="pt-4 flex items-center text-sm">
-            <div className="mr-2 w-[23px] h-[23px] inline-flex justify-center items-center rounded-full bg-yellow-100 text-orange-400"><StarIcon width={18} /></div> Popular Item
-            <div className="ml-8 mr-2 w-[23px] h-[23px] inline-flex justify-center items-center rounded-full bg-orange-100 text-red-500"><FireIcon width={18} /></div> Spicy
+            <div className="mr-2 w-[23px] h-[23px] inline-flex justify-center items-center rounded-full bg-yellow-100 text-orange-400"><StarIcon width={18} /></div> Vegetarish
+            <div className="ml-8 mr-2 w-[23px] h-[23px] inline-flex justify-center items-center rounded-full bg-orange-100 text-red-500"><FireIcon width={18} /></div> Scharf
           </div>
         </motion.div>
             {menus.map(menu => (
