@@ -41,7 +41,7 @@ const Info = () => (
             transition={{ duration: 1, delay: 0.5 }}
             viewport={{ once: true }}
           >
-            <StaticImage src="../../images/info/tokio-map.png" alt="Minh Quang Asia Location" className="mr-4 drop-shadow-md" />
+            <StaticImage src="../../images/info/map.png" alt="Minh Quang Asia Location" className="mr-4 drop-shadow-md" />
           </motion.div>
           {/* CONTACT INFO */}
           <motion.div
@@ -95,6 +95,12 @@ const Info = () => (
             </div>
             <div className="inline-flex justify-end items-center pr-4">
               <p className="font-medium uppercase">Mittwoch</p>
+            </div>
+            <div className="flex">
+              <p>11:00 bis 22:00</p>
+            </div>
+            <div className="inline-flex justify-end items-center pr-4">
+              <p className="font-medium uppercase">Donnerstag</p>
             </div>
             <div className="flex">
               <p>11:00 bis 22:00</p>
